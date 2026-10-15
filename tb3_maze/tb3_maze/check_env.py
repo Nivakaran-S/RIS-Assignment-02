@@ -67,8 +67,11 @@ def main(args=None):
     sim_dt = (n.clock_last - n.clock_first) if n.clock_first is not None else 0.0
     checks.append(('/clock advancing', sim_dt > 0.5, f'{sim_dt:.2f} s sim in {n.duration:.0f} s wall'))
 
-    rate = len(n.scans) / n.duration
-    checks.append(('/scan publishing ~5 Hz', rate >= 2.0, f'{rate:.1f} Hz'))
+    # Rates are per SIM second: a slow VM runs Gazebo below real time, which
+    # would make a healthy 5 Hz sensor look slow on the wall clock.
+    rate = len(n.scans) / sim_dt if sim_dt > 0 else 0.0
+    checks.append(('/scan publishing ~5 Hz (sim)', 3.0 <= rate <= 7.0,
+                   f'{rate:.1f} Hz sim, real-time factor {sim_dt / n.duration:.2f}'))
     if n.scans:
         s = n.scans[-1]
         valid = [r for r in s.ranges if s.range_min <= r <= s.range_max and math.isfinite(r)]
@@ -80,8 +83,8 @@ def main(args=None):
     else:
         checks.append(('/scan beam count', False, 'no scans (Sensors plugin? use_sim_time?)'))
 
-    orate = n.odoms / n.duration
-    checks.append(('/odom publishing', orate >= 5.0, f'{orate:.1f} Hz'))
+    orate = n.odoms / sim_dt if sim_dt > 0 else 0.0
+    checks.append(('/odom publishing (sim)', orate >= 5.0, f'{orate:.1f} Hz sim'))
     checks.append(('TF odom -> base_footprint', n.tf_ok('odom', 'base_footprint'), 'DiffDrive'))
     checks.append(('TF base_footprint -> base_scan', n.tf_ok('base_footprint', 'base_scan'),
                    'robot_state_publisher'))
