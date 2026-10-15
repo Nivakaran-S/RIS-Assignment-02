@@ -1,0 +1,5 @@
+# Linux tooling (bash, ROS) needs LF even when committed from Windows.
+* text=auto eol=lf
+*.pgm binary
+*.png binary
+*.mp4 binary

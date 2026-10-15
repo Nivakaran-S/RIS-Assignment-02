@@ -1,0 +1,12 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.vscode/
+.idea/
+*.swp
+# local experiment output (copy chosen results into results/ to commit them)
+tb3_maze_results/

@@ -1,0 +1,19 @@
+# Fixed evaluation goals (world == map frame; robot starts at (0,0) facing +x).
+# Chosen for clearly different path lengths and corridor sequences.
+# `hops` = cell-to-cell moves on the shortest route (from generate_maze BFS).
+goals:
+  - name: G1
+    x: 2.0       # cell (col 4, row 3): along the bottom corridor, then up the right side
+    y: 1.0
+    yaw: 1.5708
+    hops: 6
+  - name: G2
+    x: 1.0       # cell (col 2, row 2): the walled-in centre pocket
+    y: 1.5
+    yaw: 3.1416
+    hops: 9
+  - name: G3
+    x: 2.0       # cell (col 4, row 1): farthest cell in the maze
+    y: 2.0
+    yaw: 0.0
+    hops: 14
