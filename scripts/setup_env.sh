@@ -52,7 +52,7 @@ sudo apt-get install -y \
   ros-jazzy-navigation2 ros-jazzy-nav2-bringup \
   ros-jazzy-slam-toolbox \
   python3-colcon-common-extensions python3-rosdep \
-  python3-yaml python3-numpy python3-matplotlib
+  python3-yaml python3-numpy python3-matplotlib python3-pip
 
 # turtlebot3_gazebo: apt if released, else source (jazzy branch)
 mkdir -p "$WS/src"
@@ -87,6 +87,7 @@ fi
 # ------------------------------------------------------------- build
 say "Build workspace $WS"
 # shellcheck disable=SC1091
+set +u   # ROS setup scripts read unset variables
 source /opt/ros/jazzy/setup.bash
 cd "$WS"
 rosdep install --from-paths src --ignore-src -r -y
