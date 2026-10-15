@@ -54,7 +54,7 @@ WORLD_TEMPLATE = """<?xml version="1.0"?>
 
     <gui fullscreen="0">
       <camera name="user_camera">
-        <pose>{cam_x:.3f} {cam_y:.3f} 4.5 0 1.5708 1.5708</pose>
+        <pose>{cam_x:.3f} {cam_y:.3f} 4.5 0 1.5708 0</pose>
       </camera>
     </gui>
 
