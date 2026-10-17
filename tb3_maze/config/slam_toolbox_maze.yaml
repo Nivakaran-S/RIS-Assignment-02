@@ -1,5 +1,6 @@
 # slam_toolbox (online async) tuned for a small 3 x 3 m maze with 0.5 m cells.
 # Based on slam_toolbox/config/mapper_params_online_async.yaml; changes are marked [maze].
+# Extra stability tweaks for reducing mid-run map corruption.
 slam_toolbox:
   ros__parameters:
     # Plugin params
@@ -18,12 +19,12 @@ slam_toolbox:
     use_map_saver: true
     mode: mapping
     debug_logging: false
-    throttle_scans: 1
+    throttle_scans: 2                   # [stable] was 1 — skip every other scan if sim laggy
     transform_publish_period: 0.02
-    map_update_interval: 2.0            # [maze] 5.0 -> faster visual feedback while driving
-    resolution: 0.05                    # 5 cm walls = one cell
+    map_update_interval: 3.0            # [stable] was 2.0 — calmer updates
+    resolution: 0.05                    # 5 cm cells
     min_laser_range: 0.12               # [maze] LDS-01 minimum range
-    max_laser_range: 3.5                # [maze] LDS-01 maximum range (whole maze fits)
+    max_laser_range: 3.5                # [maze] LDS-01 maximum range
     minimum_time_interval: 0.5
     transform_timeout: 0.2
     tf_buffer_duration: 30.0
@@ -33,18 +34,18 @@ slam_toolbox:
     # General parameters
     use_scan_matching: true
     use_scan_barycenter: true
-    minimum_travel_distance: 0.2        # [maze] 0.5 -> 0.2: a scan every ~0.4 cell
-    minimum_travel_heading: 0.3         # [maze] 0.5 -> 0.3 rad: more scans in tight turns
+    minimum_travel_distance: 0.40       # [stable] was 0.2 — fewer updates, less drift junk
+    minimum_travel_heading: 0.50        # [stable] was 0.3 — fewer updates on small turns
     scan_buffer_size: 10
-    scan_buffer_maximum_scan_distance: 4.0   # [maze] 10 -> 4 m (maze is 3 m wide)
-    link_match_minimum_response_fine: 0.1
+    scan_buffer_maximum_scan_distance: 4.0
+    link_match_minimum_response_fine: 0.15   # [stable] was 0.1 — reject weak matches
     link_scan_maximum_distance: 1.5
-    loop_search_maximum_distance: 2.0   # [maze] 3 -> 2 m
+    loop_search_maximum_distance: 2.0
     do_loop_closing: true
     loop_match_minimum_chain_size: 10
     loop_match_maximum_variance_coarse: 3.0
-    loop_match_minimum_response_coarse: 0.35
-    loop_match_minimum_response_fine: 0.45
+    loop_match_minimum_response_coarse: 0.50 # [stable] was 0.35 — harder bad loops
+    loop_match_minimum_response_fine: 0.60   # [stable] was 0.45 — stricter loop close
 
     # Correlation parameters
     correlation_search_space_dimension: 0.5
@@ -52,13 +53,13 @@ slam_toolbox:
     correlation_search_space_smear_deviation: 0.1
 
     # Loop closure parameters
-    loop_search_space_dimension: 4.0    # [maze] 8 -> 4 m
+    loop_search_space_dimension: 4.0
     loop_search_space_resolution: 0.05
     loop_search_space_smear_deviation: 0.03
 
     # Scan matcher parameters
-    distance_variance_penalty: 0.5
-    angle_variance_penalty: 1.0
+    distance_variance_penalty: 0.8      # [stable] was 0.5 — trust odometry more
+    angle_variance_penalty: 1.2         # [stable] was 1.0 — trust heading more
     fine_search_angle_offset: 0.00349
     coarse_search_angle_offset: 0.349
     coarse_angle_resolution: 0.0349
