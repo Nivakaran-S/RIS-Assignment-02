@@ -13,7 +13,7 @@ goals:
     yaw: 3.1416
     hops: 9
   - name: G3
-    x: 2.0       # cell (col 4, row 1): farthest cell in the maze
-    y: 2.0
+    x: 2.5       # cell (col 4, row 1): farthest cell in the maze
+    y: 1.5
     yaw: 0.0
     hops: 14

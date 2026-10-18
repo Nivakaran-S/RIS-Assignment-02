@@ -1,0 +1,65 @@
+--- /home/robotics/backup/turtlebot3_machine_learning/turtlebot3_dqn/turtlebot3_dqn/dqn_environment.py.bak	2026-10-18 02:18:00.590793563 +0000
++++ turtlebot3_machine_learning/turtlebot3_dqn/turtlebot3_dqn/dqn_environment.py	2026-10-18 02:18:00.634285155 +0000
+@@ -19,6 +19,7 @@
+ 
+ import math
+ import os
++import time
+ 
+ from geometry_msgs.msg import Twist
+ from geometry_msgs.msg import TwistStamped
+@@ -26,6 +27,7 @@
+ import numpy
+ import rclpy
+ from rclpy.callback_groups import MutuallyExclusiveCallbackGroup
++from rclpy.executors import MultiThreadedExecutor
+ from rclpy.node import Node
+ from rclpy.qos import qos_profile_sensor_data
+ from rclpy.qos import QoSProfile
+@@ -127,7 +129,8 @@
+                 'service for initialize the environment is not available, waiting ...'
+             )
+         future = self.initialize_environment_client.call_async(Goal.Request())
+-        rclpy.spin_until_future_complete(self, future)
++        while not future.done():
++            time.sleep(0.01)
+         response_goal = future.result()
+         if not response_goal.success:
+             self.get_logger().error('initialize environment request failed')
+@@ -152,7 +155,8 @@
+         while not self.task_succeed_client.wait_for_service(timeout_sec=1.0):
+             self.get_logger().warn('service for task succeed is not available, waiting ...')
+         future = self.task_succeed_client.call_async(Goal.Request())
+-        rclpy.spin_until_future_complete(self, future)
++        while not future.done():
++            time.sleep(0.01)
+         if future.result() is not None:
+             response = future.result()
+             self.goal_pose_x = response.pose_x
+@@ -165,7 +169,8 @@
+         while not self.task_failed_client.wait_for_service(timeout_sec=1.0):
+             self.get_logger().warn('service for task failed is not available, waiting ...')
+         future = self.task_failed_client.call_async(Goal.Request())
+-        rclpy.spin_until_future_complete(self, future)
++        while not future.done():
++            time.sleep(0.01)
+         if future.result() is not None:
+             response = future.result()
+             self.goal_pose_x = response.pose_x
+@@ -378,12 +383,14 @@
+ def main(args=None):
+     rclpy.init(args=args)
+     rl_environment = RLEnvironment()
++    executor = MultiThreadedExecutor(num_threads=4)
++    executor.add_node(rl_environment)
+     try:
+-        while rclpy.ok():
+-            rclpy.spin_once(rl_environment, timeout_sec=0.1)
++        executor.spin()
+     except KeyboardInterrupt:
+         pass
+     finally:
++        executor.shutdown()
+         rl_environment.destroy_node()
+         rclpy.shutdown()
+ 

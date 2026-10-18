@@ -10,3 +10,8 @@ __pycache__/
 *.swp
 # local experiment output (copy chosen results into results/ to commit them)
 tb3_maze_results/
+build/
+install/
+log/
+*.bak
+__pycache__/

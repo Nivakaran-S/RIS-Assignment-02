@@ -1,0 +1,638 @@
+[INFO] [1792289979.979816803] [rl_environment]: Goal Reached
+[INFO] [1792289981.189181687] [rl_environment]: service for task succeed finished
+[INFO] [1792289983.214414160] [rl_environment]: Stop called
+[INFO] [1792289986.503869126] [rl_environment]: Collision happened
+[INFO] [1792289988.930102343] [rl_environment]: service for task failed finished
+[INFO] [1792289988.946448998] [rl_environment]: Stop called
+[INFO] [1792289988.956555576] [rl_environment]: Collision happened
+[INFO] [1792289991.314280377] [rl_environment]: service for task failed finished
+[INFO] [1792289993.221942657] [rl_environment]: Stop called
+[INFO] [1792289995.050753978] [rl_environment]: Collision happened
+[INFO] [1792289997.375882145] [rl_environment]: service for task failed finished
+[INFO] [1792289997.389281459] [rl_environment]: Stop called
+[INFO] [1792290007.573174248] [rl_environment]: Collision happened
+[INFO] [1792290009.769230352] [rl_environment]: service for task failed finished
+[INFO] [1792290009.788927301] [rl_environment]: Stop called
+[INFO] [1792290009.836678564] [rl_environment]: Collision happened
+[INFO] [1792290012.416863402] [rl_environment]: service for task failed finished
+[INFO] [1792290014.347892408] [rl_environment]: Stop called
+[INFO] [1792290016.118593150] [rl_environment]: Collision happened
+[INFO] [1792290018.539757252] [rl_environment]: service for task failed finished
+[INFO] [1792290018.560108250] [rl_environment]: Stop called
+[INFO] [1792290022.903279508] [rl_environment]: Collision happened
+[INFO] [1792290025.299375785] [rl_environment]: service for task failed finished
+[INFO] [1792290025.310068802] [rl_environment]: Stop called
+[INFO] [1792290030.213775170] [rl_environment]: Collision happened
+[INFO] [1792290032.465923137] [rl_environment]: service for task failed finished
+[INFO] [1792290032.478456372] [rl_environment]: Stop called
+[INFO] [1792290032.497379608] [rl_environment]: Collision happened
+[INFO] [1792290034.689069779] [rl_environment]: service for task failed finished
+[INFO] [1792290036.612667612] [rl_environment]: Stop called
+[INFO] [1792290037.792301891] [rl_environment]: Collision happened
+[INFO] [1792290040.099643548] [rl_environment]: service for task failed finished
+[INFO] [1792290040.110880721] [rl_environment]: Stop called
+[INFO] [1792290040.129366088] [rl_environment]: Collision happened
+[INFO] [1792290042.317703947] [rl_environment]: service for task failed finished
+[INFO] [1792290044.282155952] [rl_environment]: Stop called
+directional_reward: 0.704833, obstacle_reward: -4.192833
+directional_reward: 0.681062, obstacle_reward: -4.292530
+directional_reward: 0.613436, obstacle_reward: -4.292530
+directional_reward: 0.553536, obstacle_reward: -4.079446
+directional_reward: 0.470890, obstacle_reward: -4.079446
+directional_reward: 0.442991, obstacle_reward: -4.079446
+directional_reward: 0.469305, obstacle_reward: -4.256638
+directional_reward: 0.500139, obstacle_reward: -4.256638
+directional_reward: 0.452952, obstacle_reward: -4.256638
+directional_reward: 0.386712, obstacle_reward: -4.205041
+directional_reward: 0.353969, obstacle_reward: -4.205041
+directional_reward: 0.274451, obstacle_reward: -4.044932
+directional_reward: 0.201540, obstacle_reward: -4.044932
+directional_reward: 0.214650, obstacle_reward: -4.354853
+directional_reward: 0.242608, obstacle_reward: -4.354853
+directional_reward: 0.298734, obstacle_reward: -4.432411
+directional_reward: 0.289144, obstacle_reward: -4.432411
+directional_reward: 0.254141, obstacle_reward: -4.399861
+directional_reward: 0.500000, obstacle_reward: -4.232341
+directional_reward: 0.723336, obstacle_reward: -4.662696
+directional_reward: 0.793078, obstacle_reward: -4.602632
+directional_reward: 0.807768, obstacle_reward: -4.602632
+directional_reward: 0.774130, obstacle_reward: -4.602632
+directional_reward: 0.756188, obstacle_reward: -4.735431
+directional_reward: 0.791792, obstacle_reward: -4.735431
+directional_reward: 0.899897, obstacle_reward: -4.746497
+directional_reward: 0.923266, obstacle_reward: -4.746497
+directional_reward: 0.873964, obstacle_reward: -4.763991
+directional_reward: 0.825580, obstacle_reward: -4.763991
+directional_reward: 0.763937, obstacle_reward: -4.763991
+directional_reward: 0.716731, obstacle_reward: -4.663927
+directional_reward: 0.500000, obstacle_reward: -4.193272
+directional_reward: 0.478922, obstacle_reward: -4.193272
+directional_reward: 0.424235, obstacle_reward: -4.193272
+directional_reward: 0.424632, obstacle_reward: -4.066303
+directional_reward: 0.462819, obstacle_reward: -4.066303
+directional_reward: 0.435136, obstacle_reward: -4.066303
+directional_reward: 0.485366, obstacle_reward: -4.280161
+directional_reward: 0.494410, obstacle_reward: -4.203844
+directional_reward: 0.471887, obstacle_reward: -4.203844
+directional_reward: 0.455245, obstacle_reward: -4.203844
+directional_reward: 0.434398, obstacle_reward: -4.154910
+directional_reward: 0.395000, obstacle_reward: -4.154910
+directional_reward: 0.353237, obstacle_reward: -4.154910
+directional_reward: 0.327531, obstacle_reward: -4.344863
+directional_reward: 0.245125, obstacle_reward: -4.295501
+directional_reward: 0.281269, obstacle_reward: -4.295501
+directional_reward: 0.285241, obstacle_reward: -4.280261
+directional_reward: 0.260267, obstacle_reward: -4.280261
+directional_reward: 0.280069, obstacle_reward: -4.192743
+directional_reward: 0.229896, obstacle_reward: -4.192743
+directional_reward: 0.215876, obstacle_reward: -4.011053
+directional_reward: 0.205206, obstacle_reward: -4.011053
+directional_reward: 0.213983, obstacle_reward: -4.011053
+directional_reward: 0.273102, obstacle_reward: -3.759677
+directional_reward: 0.274371, obstacle_reward: -3.759677
+directional_reward: 0.233359, obstacle_reward: -3.737307
+directional_reward: 0.169555, obstacle_reward: -3.737307
+directional_reward: 0.084666, obstacle_reward: -3.737307
+directional_reward: 0.015379, obstacle_reward: -3.739957
+directional_reward: 0.017021, obstacle_reward: -3.739957
+directional_reward: 0.032351, obstacle_reward: -3.739957
+directional_reward: -0.003946, obstacle_reward: -3.894141
+directional_reward: -0.017916, obstacle_reward: -3.894141
+directional_reward: -0.062396, obstacle_reward: -3.906887
+directional_reward: -0.112353, obstacle_reward: -3.906887
+directional_reward: -0.125292, obstacle_reward: -3.906887
+directional_reward: -0.184937, obstacle_reward: -3.906887
+directional_reward: -0.197567, obstacle_reward: -3.999933
+directional_reward: -0.181073, obstacle_reward: -3.999933
+directional_reward: -0.206987, obstacle_reward: -4.027745
+directional_reward: -0.323349, obstacle_reward: -4.027745
+directional_reward: -0.364793, obstacle_reward: -4.027745
+directional_reward: -0.388356, obstacle_reward: -3.969992
+directional_reward: -0.357293, obstacle_reward: -3.969992
+directional_reward: -0.341572, obstacle_reward: -4.172111
+directional_reward: -0.407969, obstacle_reward: -4.172111
+directional_reward: -0.459844, obstacle_reward: -4.116988
+directional_reward: -0.515206, obstacle_reward: -4.116988
+directional_reward: -0.602481, obstacle_reward: -4.116988
+directional_reward: -0.630155, obstacle_reward: -4.373463
+directional_reward: -0.680818, obstacle_reward: -4.373463
+directional_reward: -0.717406, obstacle_reward: -4.435941
+directional_reward: -0.829377, obstacle_reward: -4.635029
+directional_reward: 1.000000, obstacle_reward: -4.233505
+directional_reward: 0.384872, obstacle_reward: -4.781987
+directional_reward: 0.450339, obstacle_reward: -4.781987
+directional_reward: 0.466234, obstacle_reward: -4.781987
+directional_reward: 0.401423, obstacle_reward: -4.811996
+directional_reward: 0.397869, obstacle_reward: -4.855270
+directional_reward: 0.479187, obstacle_reward: -4.788940
+directional_reward: 1.000000, obstacle_reward: -4.228660
+directional_reward: 0.958279, obstacle_reward: -4.174254
+directional_reward: 0.933070, obstacle_reward: -4.174254
+directional_reward: 0.935929, obstacle_reward: -4.174254
+directional_reward: 0.896384, obstacle_reward: -4.410953
+directional_reward: 0.884198, obstacle_reward: -4.410953
+directional_reward: 0.882737, obstacle_reward: -4.410953
+directional_reward: 0.854101, obstacle_reward: -4.354545
+directional_reward: 0.767877, obstacle_reward: -4.354545
+directional_reward: 0.666324, obstacle_reward: -4.475830
+directional_reward: 0.678856, obstacle_reward: -4.475830
+directional_reward: 0.822634, obstacle_reward: -4.720141
+directional_reward: 0.915015, obstacle_reward: -4.443360
+directional_reward: 0.914261, obstacle_reward: -4.443360
+directional_reward: 0.924758, obstacle_reward: -4.088756
+directional_reward: 0.861426, obstacle_reward: -4.088756
+directional_reward: 0.827723, obstacle_reward: -4.321522
+directional_reward: 0.863632, obstacle_reward: -4.321522
+directional_reward: 0.853687, obstacle_reward: -4.321522
+directional_reward: 0.851275, obstacle_reward: -4.140462
+directional_reward: 1.000000, obstacle_reward: -4.149616
+directional_reward: 1.000000, obstacle_reward: -4.243559
+directional_reward: 0.986819, obstacle_reward: -4.243559
+directional_reward: 0.966639, obstacle_reward: -4.205753
+directional_reward: 0.889055, obstacle_reward: -4.205753
+directional_reward: 0.929283, obstacle_reward: -4.337856
+directional_reward: 0.968448, obstacle_reward: -4.253626
+directional_reward: 0.909937, obstacle_reward: -4.253626
+directional_reward: 0.894413, obstacle_reward: -4.253626
+directional_reward: 0.784043, obstacle_reward: -4.154568
+directional_reward: 0.682318, obstacle_reward: -4.027815
+directional_reward: 0.620150, obstacle_reward: -4.027815
+directional_reward: 0.514709, obstacle_reward: -4.027815
+directional_reward: 0.482587, obstacle_reward: -4.300110
+directional_reward: 0.508152, obstacle_reward: -4.300110
+directional_reward: 0.507108, obstacle_reward: -4.300110
+directional_reward: 0.442495, obstacle_reward: -4.483689
+directional_reward: 0.402144, obstacle_reward: -4.483689
+directional_reward: 0.294991, obstacle_reward: -4.603852
+directional_reward: 0.250487, obstacle_reward: -4.603852
+directional_reward: 0.232348, obstacle_reward: -4.780750
+directional_reward: 0.500000, obstacle_reward: -4.213341
+directional_reward: 0.978601, obstacle_reward: -4.782468
+directional_reward: 0.916396, obstacle_reward: -4.784024
+directional_reward: 0.734611, obstacle_reward: -4.784045
+directional_reward: 0.584898, obstacle_reward: -4.576550
+directional_reward: 1.000000, obstacle_reward: -4.231894
+directional_reward: 0.660718, obstacle_reward: -4.654251
+directional_reward: 0.657880, obstacle_reward: -4.654251
+directional_reward: 0.671029, obstacle_reward: -4.628694
+directional_reward: 0.752461, obstacle_reward: -4.628694
+directional_reward: 0.769037, obstacle_reward: -4.628694
+directional_reward: 0.794271, obstacle_reward: -4.628694[INFO] [1792290047.305578446] [rl_environment]: Collision happened
+[INFO] [1792290049.565876471] [rl_environment]: service for task failed finished
+[INFO] [1792290049.630019635] [rl_environment]: Stop called
+[INFO] [1792290053.344327223] [rl_environment]: Collision happened
+[INFO] [1792290055.627530547] [rl_environment]: service for task failed finished
+[INFO] [1792290055.647153827] [rl_environment]: Stop called
+[INFO] [1792290055.659357676] [rl_environment]: Collision happened
+[INFO] [1792290058.024054022] [rl_environment]: service for task failed finished
+[INFO] [1792290059.975168007] [rl_environment]: Stop called
+[INFO] [1792290093.279737012] [rl_environment]: Collision happened
+[INFO] [1792290095.507884981] [rl_environment]: service for task failed finished
+[INFO] [1792290095.522214149] [rl_environment]: Stop called
+[INFO] [1792290095.567246217] [rl_environment]: Collision happened
+[INFO] [1792290097.928267162] [rl_environment]: service for task failed finished
+[INFO] [1792290216.972905740] [rl_environment]: Stop called
+[INFO] [1792290220.292182822] [rl_environment]: Collision happened
+[INFO] [1792290222.761794244] [rl_environment]: service for task failed finished
+[INFO] [1792290222.772441227] [rl_environment]: Stop called
+[INFO] [1792290228.812618286] [rl_environment]: Collision happened
+[INFO] [1792290231.349068096] [rl_environment]: service for task failed finished
+[INFO] [1792290231.386811338] [rl_environment]: Stop called
+[INFO] [1792290235.266296233] [rl_environment]: Collision happened
+[INFO] [1792290237.548804791] [rl_environment]: service for task failed finished
+[INFO] [1792290237.557246151] [rl_environment]: Stop called
+[INFO] [1792290242.656781130] [rl_environment]: Collision happened
+[INFO] [1792290245.020025299] [rl_environment]: service for task failed finished
+[INFO] [1792290245.057710115] [rl_environment]: Stop called
+[INFO] [1792290261.970287876] [rl_environment]: Stop called
+[INFO] [1792290262.859626045] [rl_environment]: Collision happened
+[INFO] [1792290265.127936937] [rl_environment]: service for task failed finished
+[INFO] [1792290265.130321929] [rl_environment]: Stop called
+[INFO] [1792290268.765686549] [rl_environment]: Collision happened
+[INFO] [1792290271.131846792] [rl_environment]: service for task failed finished
+[INFO] [1792290271.143658831] [rl_environment]: Stop called
+[INFO] [1792290271.148274995] [rl_environment]: Collision happened
+[INFO] [1792290273.505721857] [rl_environment]: service for task failed finished
+[INFO] [1792290275.482540623] [rl_environment]: Stop called
+[INFO] [1792290276.895232098] [rl_environment]: Collision happened
+[INFO] [1792290279.420309909] [rl_environment]: service for task failed finished
+
+directional_reward: 0.809000, obstacle_reward: -4.443971
+directional_reward: 0.805998, obstacle_reward: -4.443971
+directional_reward: 0.765194, obstacle_reward: -4.443971
+directional_reward: 0.662005, obstacle_reward: -4.547850
+directional_reward: 0.639666, obstacle_reward: -4.547850
+directional_reward: 0.603404, obstacle_reward: -4.547850
+directional_reward: 0.581416, obstacle_reward: -4.527892
+directional_reward: 0.595064, obstacle_reward: -4.527892
+directional_reward: 0.606699, obstacle_reward: -4.527892
+directional_reward: 0.606450, obstacle_reward: -4.527892
+directional_reward: 0.614006, obstacle_reward: -4.243289
+directional_reward: 0.591277, obstacle_reward: -4.243289
+directional_reward: 0.595471, obstacle_reward: -4.243289
+directional_reward: 0.478863, obstacle_reward: -4.243289
+directional_reward: 0.460472, obstacle_reward: -4.021229
+directional_reward: 0.460883, obstacle_reward: -4.021229
+directional_reward: 0.470284, obstacle_reward: -3.291190
+directional_reward: 1.000000, obstacle_reward: -4.237891
+directional_reward: 0.952477, obstacle_reward: -4.273369
+directional_reward: 0.941007, obstacle_reward: -4.273369
+directional_reward: 0.951500, obstacle_reward: -4.273369
+directional_reward: 0.916521, obstacle_reward: -4.404328
+directional_reward: 0.836012, obstacle_reward: -4.404328
+directional_reward: 0.666209, obstacle_reward: -3.980634
+directional_reward: 0.507468, obstacle_reward: -3.980634
+directional_reward: 0.339593, obstacle_reward: -4.178462
+directional_reward: 0.240192, obstacle_reward: -4.631422
+directional_reward: 0.211676, obstacle_reward: -4.631422
+directional_reward: 0.193054, obstacle_reward: -4.631422
+directional_reward: 0.167526, obstacle_reward: -4.733534
+directional_reward: 0.168912, obstacle_reward: -4.733534
+directional_reward: 0.194860, obstacle_reward: -4.733534
+directional_reward: 0.213483, obstacle_reward: -4.750583
+directional_reward: 1.000000, obstacle_reward: -4.207793
+directional_reward: 0.439257, obstacle_reward: -4.205076
+directional_reward: 0.436217, obstacle_reward: -4.474190
+directional_reward: 0.340929, obstacle_reward: -4.583667
+directional_reward: 0.276146, obstacle_reward: -4.583667
+directional_reward: 0.179883, obstacle_reward: -4.783219
+directional_reward: 0.014771, obstacle_reward: -4.783219
+directional_reward: -0.051148, obstacle_reward: -4.832018
+directional_reward: 0.500000, obstacle_reward: -4.197028
+directional_reward: 0.606465, obstacle_reward: -4.266925
+directional_reward: 0.603371, obstacle_reward: -4.224852
+directional_reward: 0.498733, obstacle_reward: -4.224852
+directional_reward: 0.343562, obstacle_reward: -4.438556
+directional_reward: 0.302203, obstacle_reward: -4.198412
+directional_reward: 0.260902, obstacle_reward: -4.198412
+directional_reward: 0.169170, obstacle_reward: -4.240051
+directional_reward: 0.151764, obstacle_reward: -4.240051
+directional_reward: 0.155956, obstacle_reward: -4.240051
+directional_reward: 0.040004, obstacle_reward: -4.295268
+directional_reward: -0.067513, obstacle_reward: -4.237054
+directional_reward: -0.150452, obstacle_reward: -4.237054
+directional_reward: -0.288172, obstacle_reward: -4.515966
+directional_reward: -0.356106, obstacle_reward: -4.515966
+directional_reward: -0.376347, obstacle_reward: -4.515966
+directional_reward: -0.378120, obstacle_reward: -4.515966
+directional_reward: -0.414677, obstacle_reward: -4.670656
+directional_reward: -0.502843, obstacle_reward: -4.670656
+directional_reward: -0.524624, obstacle_reward: -4.670656
+directional_reward: -0.556171, obstacle_reward: -4.819725
+directional_reward: 0.500000, obstacle_reward: -4.239788
+directional_reward: 0.416988, obstacle_reward: -4.235584
+directional_reward: 0.265213, obstacle_reward: -4.316359
+directional_reward: 0.197581, obstacle_reward: -4.316359
+directional_reward: 0.061205, obstacle_reward: -4.316359
+directional_reward: -0.030081, obstacle_reward: -4.009168
+directional_reward: -0.098488, obstacle_reward: -4.009168
+directional_reward: -0.301869, obstacle_reward: -4.514324
+directional_reward: -0.390713, obstacle_reward: -4.769663
+directional_reward: -0.341184, obstacle_reward: -4.769663
+directional_reward: -0.324298, obstacle_reward: -4.797677
+directional_reward: 1.000000, obstacle_reward: -4.248274
+directional_reward: 0.972630, obstacle_reward: -4.248274
+directional_reward: 0.968937, obstacle_reward: -4.343631
+directional_reward: 0.952556, obstacle_reward: -4.343631
+directional_reward: 0.855088, obstacle_reward: -4.343631
+directional_reward: 0.825832, obstacle_reward: -4.257577
+directional_reward: 0.811471, obstacle_reward: -4.257577
+directional_reward: 0.796993, obstacle_reward: -4.257577
+directional_reward: 0.754358, obstacle_reward: -4.305833
+directional_reward: 0.687484, obstacle_reward: -4.305833
+directional_reward: 0.563419, obstacle_reward: -4.283917
+directional_reward: 0.500298, obstacle_reward: -4.283917
+directional_reward: 0.415096, obstacle_reward: -4.283917
+directional_reward: 0.197815, obstacle_reward: -4.567075
+directional_reward: -0.133465, obstacle_reward: -4.835750
+directional_reward: 0.500000, obstacle_reward: -4.231636
+directional_reward: 0.374208, obstacle_reward: -4.052553
+directional_reward: 0.219049, obstacle_reward: -4.052553
+directional_reward: 0.305080, obstacle_reward: -4.178131
+directional_reward: 0.280850, obstacle_reward: -4.178131
+directional_reward: 0.270676, obstacle_reward: -4.178131
+directional_reward: 0.324978, obstacle_reward: -4.149441
+directional_reward: 0.246667, obstacle_reward: -4.257618
+directional_reward: 0.062798, obstacle_reward: -4.206112
+directional_reward: -0.075974, obstacle_reward: -4.206112
+directional_reward: -0.191116, obstacle_reward: -4.420238
+directional_reward: -0.236864, obstacle_reward: -4.420238
+directional_reward: -0.300670, obstacle_reward: -4.420238
+directional_reward: -0.424180, obstacle_reward: -4.728421
+directional_reward: -0.490173, obstacle_reward: -4.728421
+directional_reward: -0.507091, obstacle_reward: -4.728421
+directional_reward: -0.524691, obstacle_reward: -4.822817
+directional_reward: 1.000000, obstacle_reward: -4.212437
+directional_reward: 0.975490, obstacle_reward: -4.212437
+directional_reward: 0.898186, obstacle_reward: -4.311850
+directional_reward: 0.797295, obstacle_reward: -4.311850
+directional_reward: 0.691161, obstacle_reward: -4.195987
+directional_reward: 0.625245, obstacle_reward: -4.195987
+directional_reward: 0.511628, obstacle_reward: -4.135180
+directional_reward: 0.488352, obstacle_reward: -4.135180
+directional_reward: 0.404891, obstacle_reward: -4.135180
+directional_reward: 0.423484, obstacle_reward: -4.135180
+directional_reward: 0.424943, obstacle_reward: -4.389601
+directional_reward: 0.414432, obstacle_reward: -4.389601
+directional_reward: 0.276871, obstacle_reward: -4.457303
+directional_reward: 0.178295, obstacle_reward: -4.457303
+directional_reward: 0.159361, obstacle_reward: -4.682920
+directional_reward: 0.253813, obstacle_reward: -4.725893
+directional_reward: 1.000000, obstacle_reward: -4.238563
+directional_reward: 0.952477, obstacle_reward: -4.315721
+directional_reward: 0.894263, obstacle_reward: -4.315721
+directional_reward: 0.813855, obstacle_reward: -4.315721
+directional_reward: 0.751162, obstacle_reward: -4.197242
+directional_reward: 0.686819, obstacle_reward: -4.197242
+directional_reward: 0.620790, obstacle_reward: -4.197242
+directional_reward: 0.559380, obstacle_reward: -4.224467
+directional_reward: 0.459095, obstacle_reward: -4.224467
+directional_reward: 0.387373, obstacle_reward: -4.224467
+directional_reward: 0.289517, obstacle_reward: -4.497154
+directional_reward: 0.236737, obstacle_reward: -4.497154
+directional_reward: 0.199157, obstacle_reward: -4.497154
+directional_reward: 0.205723, obstacle_reward: -4.710078
+directional_reward: 0.153042, obstacle_reward: -4.710078
+directional_reward: 0.101857, obstacle_reward: -4.810787
+directional_reward: 0.500000, obstacle_reward: -4.218492
+directional_reward: -0.134543, obstacle_reward: -4.317756
+directional_reward: -0.044582, obstacle_reward: -4.575378
+directional_reward: -0.197854, obstacle_reward: -4.506422
+directional_reward: -0.376822, obstacle_reward: -4.680809
+directional_reward: -0.442732, obstacle_reward: -4.680809
+directional_reward: -0.531648, obstacle_reward: -4.837987[INFO] [1792290279.430444370] [rl_environment]: Stop called
+[INFO] [1792290283.798225255] [rl_environment]: Collision happened
+[INFO] [1792290286.064766631] [rl_environment]: service for task failed finished
+[INFO] [1792290286.072952376] [rl_environment]: Stop called
+[INFO] [1792290286.091516094] [rl_environment]: Collision happened
+[INFO] [1792290288.319101441] [rl_environment]: service for task failed finished
+[INFO] [1792290290.554841243] [rl_environment]: Stop called
+[INFO] [1792290292.339541108] [rl_environment]: Collision happened
+[INFO] [1792290294.638371643] [rl_environment]: service for task failed finished
+[INFO] [1792290294.640598097] [rl_environment]: Stop called
+[INFO] [1792290298.229359442] [rl_environment]: Collision happened
+[INFO] [1792290300.533285388] [rl_environment]: service for task failed finished
+[INFO] [1792290300.542028046] [rl_environment]: Stop called
+[INFO] [1792290305.298883450] [rl_environment]: Collision happened
+[INFO] [1792290307.676075649] [rl_environment]: service for task failed finished
+[INFO] [1792290307.721330487] [rl_environment]: Stop called
+[INFO] [1792290307.723026893] [rl_environment]: Collision happened
+[INFO] [1792290310.158777700] [rl_environment]: service for task failed finished
+[INFO] [1792290312.166608377] [rl_environment]: Stop called
+[INFO] [1792290314.270278756] [rl_environment]: Collision happened
+[INFO] [1792290316.588066723] [rl_environment]: service for task failed finished
+[INFO] [1792290316.599621548] [rl_environment]: Stop called
+[INFO] [1792290319.676039112] [rl_environment]: Collision happened
+[INFO] [1792290322.061183006] [rl_environment]: service for task failed finished
+[INFO] [1792290322.089415289] [rl_environment]: Stop called
+[INFO] [1792290322.104796100] [rl_environment]: Collision happened
+[INFO] [1792290324.330793053] [rl_environment]: service for task failed finished
+[INFO] [1792290326.381395925] [rl_environment]: Stop called
+[INFO] [1792290327.700527901] [rl_environment]: Collision happened
+[INFO] [1792290330.195816017] [rl_environment]: service for task failed finished
+[INFO] [1792290330.203216175] [rl_environment]: Stop called
+[INFO] [1792290333.945148121] [rl_environment]: Collision happened
+[INFO] [1792290336.271321521] [rl_environment]: service for task failed finished
+[INFO] [1792290336.275423780] [rl_environment]: Stop called
+[INFO] [1792290336.355512571] [rl_environment]: Collision happened
+[INFO] [1792290338.563176633] [rl_environment]: service for task failed finished
+[INFO] [1792290340.598180103] [rl_environment]: Stop called
+[INFO] [1792290342.150606548] [rl_environment]: Collision happened
+[INFO] [1792290344.364080376] [rl_environment]: service for task failed finished
+[INFO] [1792290344.391793079] [rl_environment]: Stop called
+[INFO] [1792290344.394163178] [rl_environment]: Collision happened
+[INFO] [1792290346.713180291] [rl_environment]: service for task failed finished
+[INFO] [1792290348.825898017] [rl_environment]: Stop called
+[INFO] [1792290350.102552587] [rl_environment]: Collision happened
+[INFO] [1792290352.323784820] [rl_environment]: service for task failed finished
+[INFO] [1792290352.327516325] [rl_environment]: Stop called
+[INFO] [1792290426.829535780] [rl_environment]: Stop called
+[INFO] [1792290427.038867406] [rl_environment]: Collision happened
+[INFO] [1792290429.198247649] [rl_environment]: service for task failed finished
+[INFO] [1792290429.212739392] [rl_environment]: Stop called
+[INFO] [1792290429.256828511] [rl_environment]: Collision happened
+[INFO] [1792290431.410297736] [rl_environment]: service for task failed finished
+[INFO] [1792290433.428190313] [rl_environment]: Stop called
+[INFO] [1792290434.836828813] [rl_environment]: Collision happened
+[INFO] [1792290437.353385777] [rl_environment]: service for task failed finished
+[INFO] [1792290437.376863539] [rl_environment]: Stop called
+[INFO] [1792290440.740747461] [rl_environment]: Collision happened
+[INFO] [1792290443.030111597] [rl_environment]: service for task failed finished
+[INFO] [1792290443.052088314] [rl_environment]: Stop called
+[INFO] [1792290443.055648043] [rl_environment]: Collision happened
+[INFO] [1792290445.134062166] [rl_environment]: service for task failed finished
+[INFO] [1792290457.927342063] [rl_environment]: Stop called
+[INFO] [1792290459.638775061] [rl_environment]: Collision happened
+[INFO] [1792290462.136698517] [rl_environment]: service for task failed finished
+
+directional_reward: 1.000000, obstacle_reward: -4.226068
+directional_reward: 0.898652, obstacle_reward: -4.186481
+directional_reward: 0.820395, obstacle_reward: -4.186481
+directional_reward: 0.700013, obstacle_reward: -3.996374
+directional_reward: 0.707350, obstacle_reward: -4.006296
+directional_reward: 0.780130, obstacle_reward: -4.114374
+directional_reward: 0.764847, obstacle_reward: -4.114374
+directional_reward: 0.767472, obstacle_reward: -4.206923
+directional_reward: 0.789192, obstacle_reward: -4.206923
+directional_reward: 0.939445, obstacle_reward: -4.227474
+directional_reward: 0.913742, obstacle_reward: -4.305936
+directional_reward: 0.733921, obstacle_reward: -4.305936
+directional_reward: 0.567104, obstacle_reward: -4.342469
+directional_reward: 0.394078, obstacle_reward: -4.538448
+directional_reward: 0.193473, obstacle_reward: -4.713431
+directional_reward: 1.000000, obstacle_reward: -4.232154
+directional_reward: 0.349329, obstacle_reward: -4.824891
+directional_reward: 0.402174, obstacle_reward: -4.765256
+directional_reward: 0.407444, obstacle_reward: -4.765256
+directional_reward: 0.294954, obstacle_reward: -4.805776
+directional_reward: 0.256398, obstacle_reward: -4.805776
+directional_reward: 0.322761, obstacle_reward: -4.854912
+directional_reward: 0.363042, obstacle_reward: -4.854912
+directional_reward: 0.417384, obstacle_reward: -4.854912
+directional_reward: 0.472595, obstacle_reward: -4.797863
+directional_reward: 1.000000, obstacle_reward: -4.200951
+directional_reward: 0.992383, obstacle_reward: -4.200951
+directional_reward: 0.945746, obstacle_reward: -4.200951
+directional_reward: 0.884980, obstacle_reward: -4.111200
+directional_reward: 0.768724, obstacle_reward: -4.111200
+directional_reward: 0.638656, obstacle_reward: -4.026318
+directional_reward: 0.501483, obstacle_reward: -4.026318
+directional_reward: 0.258264, obstacle_reward: -4.174910
+directional_reward: 0.105870, obstacle_reward: -4.655748
+directional_reward: -0.074204, obstacle_reward: -4.797428
+directional_reward: -0.227225, obstacle_reward: -4.797428
+directional_reward: -0.327154, obstacle_reward: -4.847446
+directional_reward: 1.000000, obstacle_reward: -4.239423
+directional_reward: 0.906987, obstacle_reward: -4.238078
+directional_reward: 0.867571, obstacle_reward: -4.238078
+directional_reward: 0.835311, obstacle_reward: -4.238078
+directional_reward: 0.938389, obstacle_reward: -4.043259
+directional_reward: 0.905833, obstacle_reward: -4.084806
+directional_reward: 0.845116, obstacle_reward: -4.084806
+directional_reward: 0.778077, obstacle_reward: -4.084806
+directional_reward: 0.719690, obstacle_reward: -4.257014
+directional_reward: 0.604972, obstacle_reward: -4.257014
+directional_reward: 0.519576, obstacle_reward: -4.060225
+directional_reward: 0.421863, obstacle_reward: -4.060225
+directional_reward: 0.294922, obstacle_reward: -4.483378
+directional_reward: 0.163702, obstacle_reward: -4.483378
+directional_reward: 0.029894, obstacle_reward: -4.763941
+directional_reward: -0.023892, obstacle_reward: -4.763941
+directional_reward: -0.157769, obstacle_reward: -4.840782
+directional_reward: 1.000000, obstacle_reward: -4.230573
+directional_reward: 0.450931, obstacle_reward: -4.448051
+directional_reward: 0.428471, obstacle_reward: -4.448051
+directional_reward: 0.414924, obstacle_reward: -4.520777
+directional_reward: 0.410936, obstacle_reward: -4.520777
+directional_reward: 0.368292, obstacle_reward: -4.520777
+directional_reward: 0.353693, obstacle_reward: -4.664294
+directional_reward: 0.339127, obstacle_reward: -4.664294
+directional_reward: 0.274235, obstacle_reward: -4.664294
+directional_reward: 0.208932, obstacle_reward: -4.774731
+directional_reward: 0.175327, obstacle_reward: -4.774731
+directional_reward: 0.135890, obstacle_reward: -4.774731
+directional_reward: 0.047987, obstacle_reward: -4.836459
+directional_reward: 0.500000, obstacle_reward: -4.227813
+directional_reward: 0.402539, obstacle_reward: -4.227813
+directional_reward: 0.316687, obstacle_reward: -3.995857
+directional_reward: 0.136352, obstacle_reward: -3.995857
+directional_reward: -0.068862, obstacle_reward: -3.958239
+directional_reward: -0.272751, obstacle_reward: -4.452606
+directional_reward: -0.449957, obstacle_reward: -4.689546
+directional_reward: -0.663368, obstacle_reward: -4.829114
+directional_reward: 0.500000, obstacle_reward: -4.225524
+directional_reward: -0.162966, obstacle_reward: -4.499877
+directional_reward: -0.285632, obstacle_reward: -4.605044
+directional_reward: -0.482802, obstacle_reward: -4.715849
+directional_reward: -0.611263, obstacle_reward: -4.825536
+directional_reward: 1.000000, obstacle_reward: -4.237810
+directional_reward: 0.947226, obstacle_reward: -4.230881
+directional_reward: 0.765314, obstacle_reward: -4.095212
+directional_reward: 0.679376, obstacle_reward: -4.034425
+directional_reward: 0.677482, obstacle_reward: -4.034425
+directional_reward: 0.613338, obstacle_reward: -4.274811
+directional_reward: 0.567468, obstacle_reward: -4.274811
+directional_reward: 0.400306, obstacle_reward: -4.372811
+directional_reward: 0.275207, obstacle_reward: -4.372811
+directional_reward: 0.146510, obstacle_reward: -4.701680
+directional_reward: -0.036727, obstacle_reward: -4.701680
+directional_reward: -0.244589, obstacle_reward: -4.823595
+directional_reward: 0.500000, obstacle_reward: -4.226513
+directional_reward: 0.994904, obstacle_reward: -4.762983
+directional_reward: 0.936765, obstacle_reward: -4.779370
+directional_reward: 0.906262, obstacle_reward: -4.770143
+directional_reward: 0.760803, obstacle_reward: -4.767157
+directional_reward: 0.567400, obstacle_reward: -4.646920
+directional_reward: 1.000000, obstacle_reward: -4.228989
+directional_reward: 0.384452, obstacle_reward: -4.471030
+directional_reward: 0.190628, obstacle_reward: -4.531349
+directional_reward: 0.090038, obstacle_reward: -4.743826
+directional_reward: 0.042536, obstacle_reward: -4.743826
+directional_reward: -0.072976, obstacle_reward: -4.825816
+directional_reward: 1.000000, obstacle_reward: -4.218797
+directional_reward: 0.943906, obstacle_reward: -4.218797
+directional_reward: 0.886059, obstacle_reward: -4.218797
+directional_reward: 0.807494, obstacle_reward: -4.182500
+directional_reward: 0.727352, obstacle_reward: -4.182500
+directional_reward: 0.748803, obstacle_reward: -4.167394
+directional_reward: 0.724642, obstacle_reward: -4.167394
+directional_reward: 0.601669, obstacle_reward: -4.286296
+directional_reward: 0.411939, obstacle_reward: -4.342990
+directional_reward: 0.347460, obstacle_reward: -4.342990
+directional_reward: 0.330472, obstacle_reward: -4.342990
+directional_reward: 0.329725, obstacle_reward: -4.699853
+directional_reward: 0.212499, obstacle_reward: -4.699853
+directional_reward: 0.014132, obstacle_reward: -4.758203
+directional_reward: 1.000000, obstacle_reward: -4.157467
+directional_reward: 0.307747, obstacle_reward: -4.820806
+directional_reward: 0.199756, obstacle_reward: -4.844425
+directional_reward: 0.254627, obstacle_reward: -4.844425
+directional_reward: 0.294358, obstacle_reward: -4.881782
+directional_reward: 0.308166, obstacle_reward: -4.881782
+directional_reward: 0.290451, obstacle_reward: -4.881782
+directional_reward: 0.317981, obstacle_reward: -4.839782
+directional_reward: 0.500000, obstacle_reward: -4.208094
+directional_reward: 0.360338, obstacle_reward: -4.364433
+directional_reward: 0.181736, obstacle_reward: -4.272825
+directional_reward: -0.000408, obstacle_reward: -4.272825
+directional_reward: -0.159875, obstacle_reward: -4.128546
+directional_reward: -0.250282, obstacle_reward: -4.601155
+directional_reward: -0.428088, obstacle_reward: -4.601155
+directional_reward: -0.449957, obstacle_reward: -4.799172
+directional_reward: -0.500241, obstacle_reward: -4.799172
+directional_reward: -0.501285, obstacle_reward: -4.799172
+directional_reward: -0.578955, obstacle_reward: -4.829916
+directional_reward: 1.000000, obstacle_reward: -4.208811
+directional_reward: 0.250858, obstacle_reward: -4.811886
+directional_reward: 0.311305, obstacle_reward: -4.811886
+directional_reward: 0.286779, obstacle_reward: -4.819570
+directional_reward: 0.299106, obstacle_reward: -4.819570
+directional_reward: 0.393081, obstacle_reward: -4.843755
+directional_reward: 0.461654, obstacle_reward: -4.748519[INFO] [1792290462.164226170] [rl_environment]: Stop called
+[INFO] [1792290462.171889544] [rl_environment]: Collision happened
+[INFO] [1792290464.537506129] [rl_environment]: service for task failed finished
+[INFO] [1792290466.731746912] [rl_environment]: Stop called
+[INFO] [1792290468.768456815] [rl_environment]: Collision happened
+[INFO] [1792290472.882159352] [rl_environment]: service for task failed finished
+[INFO] [1792290472.910917111] [rl_environment]: Stop called
+[INFO] [1792290476.910200566] [rl_environment]: Collision happened
+[INFO] [1792290479.207615863] [rl_environment]: service for task failed finished
+[INFO] [1792290479.217934581] [rl_environment]: Stop called
+[INFO] [1792290479.226079575] [rl_environment]: Collision happened
+[INFO] [1792290481.579423741] [rl_environment]: service for task failed finished
+[INFO] [1792290483.612321399] [rl_environment]: Stop called
+
+directional_reward: 0.500000, obstacle_reward: -4.217877
+directional_reward: 0.968967, obstacle_reward: -4.792364
+directional_reward: 0.985782, obstacle_reward: -4.725014
+directional_reward: 0.910627, obstacle_reward: -4.725014
+directional_reward: 0.757439, obstacle_reward: -4.766249
+directional_reward: 0.651691, obstacle_reward: -4.722140
+directional_reward: 0.634264, obstacle_reward: -4.722140
+directional_reward: 0.738072, obstacle_reward: -4.633149
+directional_reward: 0.687571, obstacle_reward: -4.633149
+directional_reward: 0.634570, obstacle_reward: -4.512710
+directional_reward: 0.500000, obstacle_reward: -4.248384
+directional_reward: 0.447419, obstacle_reward: -4.248384
+directional_reward: 0.478301, obstacle_reward: -4.118029
+directional_reward: 0.358767, obstacle_reward: -4.290042
+directional_reward: 0.086648, obstacle_reward: -4.131801
+directional_reward: 0.017758, obstacle_reward: -4.131801
+directional_reward: 0.026461, obstacle_reward: -4.161264
+directional_reward: -0.122627, obstacle_reward: -4.233497
+directional_reward: -0.281870, obstacle_reward: -4.610996
+directional_reward: -0.415840, obstacle_reward: -4.610996
+directional_reward: -0.396755, obstacle_reward: -4.757377
+directional_reward: 1.000000, obstacle_reward: -4.204654
+Traceback (most recent call last):
+  File "/home/robotics/tb3_maze_ws/build/turtlebot3_dqn/turtlebot3_dqn/dqn_environment.py", line 389, in main
+    executor.spin()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 359, in spin
+    self._spin_once_impl()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 991, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 757, in _wait_for_ready_callbacks
+    wait_set = _rclpy.WaitSet(
+               ^^^^^^^^^^^^^^^
+rclpy._rclpy_pybind11.RCLError: failed to initialize wait set: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/wait.c:130
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/robotics/tb3_maze_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn/dqn_environment", line 33, in <module>
+    sys.exit(load_entry_point('turtlebot3-dqn', 'console_scripts', 'dqn_environment')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/robotics/tb3_maze_ws/build/turtlebot3_dqn/turtlebot3_dqn/dqn_environment.py", line 395, in main
+    rclpy.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+    _shutdown(context=context)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+    context.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+    self.__context.shutdown()
+rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+The following exception was never retrieved: cannot use Destroyable because destruction was requested
